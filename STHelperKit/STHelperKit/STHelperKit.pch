@@ -1,0 +1,19 @@
+//
+//  STHelperKit.pch
+//  STHelperKit
+//
+//  Created by 沈兆良 on 16/7/29.
+//  Copyright © 2016年 沈兆良. All rights reserved.
+//
+
+#ifndef STHelperKit_pch
+#define STHelperKit_pch
+
+#import "UIColor+ST.h"
+#import "UIImage+ST.h"
+#import "UIView+ST.h"
+#import "UIDevice+ST.h"
+
+#import "NSString+ST.h"
+
+#endif /* STHelperKit_pch */
