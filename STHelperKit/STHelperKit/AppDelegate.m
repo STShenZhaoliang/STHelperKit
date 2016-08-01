@@ -6,9 +6,17 @@
 //  Copyright © 2016年 沈兆良. All rights reserved.
 //
 
-#import "AppDelegate.h"
 
+#pragma mark - --- Controller 控制器 ---
 #import "ViewController.h"
+#import "NetworkController.h"
+#pragma mark - --- View 视图 ---
+
+#pragma mark - --- Model 数据 ---
+
+#pragma mark - --- Tool 工具 ---
+#import "AppDelegate.h"
+#import "YTKNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -18,11 +26,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [ViewController new];
-    [self.window makeKeyAndVisible];
+    /** 1.配置网络 */
+    [self setupNetwork];
+
+    /** 2.配置视图 */
+    [self setupUI];
     return YES;
 }
+
+/** 1.配置网络 */
+- (void)setupNetwork
+{
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
+    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
+    NSString *baseUrl = [infoDictionary valueForKeyPath:@"STCommon.BaiduUrl"];
+    [config setBaseUrl:baseUrl];
+}
+
+/** 2.配置视图 */
+- (void)setupUI
+{
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [NetworkController new];
+    [self.window makeKeyAndVisible];
+}
+
 
 @end

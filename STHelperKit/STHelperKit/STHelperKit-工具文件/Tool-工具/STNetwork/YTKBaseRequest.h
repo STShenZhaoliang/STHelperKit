@@ -136,7 +136,7 @@ typedef void(^YTKRequestCompletionBlock)(__kindof YTKBaseRequest *request);
 - (NSTimeInterval)requestTimeoutInterval;
 
 /// 请求的参数列表
-- (id)requestArgument;
+- (NSDictionary *)requestArgument;
 
 /// 用于在cache结果，计算cache文件名时，忽略掉一些指定的参数
 - (id)cacheFileNameFilterForRequestArgument:(id)argument;

@@ -22,6 +22,8 @@
 		679BE5131D4B43560099E546 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE5091D4B43560099E546 /* YTKNetworkPrivate.m */; };
 		679BE5141D4B43560099E546 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE50B1D4B43560099E546 /* YTKRequest.m */; };
 		679BE5171D4B4CAE0099E546 /* UIDevice+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE5161D4B4CAE0099E546 /* UIDevice+ST.m */; };
+		679BE51D1D4B57A80099E546 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE51C1D4B57A80099E546 /* NetworkController.m */; };
+		67C6DA621D4EE08400572561 /* ApiWeatherservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6DA611D4EE08400572561 /* ApiWeatherservice.m */; };
 		67FE471E1D49937C00792E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE471D1D49937C00792E4F /* main.m */; };
 		67FE47211D49937C00792E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE47201D49937C00792E4F /* AppDelegate.m */; };
 		67FE47241D49937C00792E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE47231D49937C00792E4F /* ViewController.m */; };
@@ -60,6 +62,10 @@
 		679BE50B1D4B43560099E546 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
 		679BE5151D4B4CAE0099E546 /* UIDevice+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ST.h"; sourceTree = "<group>"; };
 		679BE5161D4B4CAE0099E546 /* UIDevice+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ST.m"; sourceTree = "<group>"; };
+		679BE51B1D4B57A80099E546 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		679BE51C1D4B57A80099E546 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		67C6DA601D4EE08400572561 /* ApiWeatherservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWeatherservice.h; sourceTree = "<group>"; };
+		67C6DA611D4EE08400572561 /* ApiWeatherservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiWeatherservice.m; sourceTree = "<group>"; };
 		67FE47191D49937C00792E4F /* STHelperKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STHelperKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FE471D1D49937C00792E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67FE471F1D49937C00792E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +121,10 @@
 		679BE4E31D4AEB330099E546 /* Network-网络 */ = {
 			isa = PBXGroup;
 			children = (
+				67C6DA5F1D4EE00000572561 /* Tool */,
+				679BE5181D4B578D0099E546 /* Controller */,
+				679BE5191D4B578D0099E546 /* Model */,
+				679BE51A1D4B578D0099E546 /* View */,
 			);
 			path = "Network-网络";
 			sourceTree = "<group>";
@@ -190,6 +200,38 @@
 				679BE50B1D4B43560099E546 /* YTKRequest.m */,
 			);
 			path = STNetwork;
+			sourceTree = "<group>";
+		};
+		679BE5181D4B578D0099E546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				679BE51B1D4B57A80099E546 /* NetworkController.h */,
+				679BE51C1D4B57A80099E546 /* NetworkController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		679BE5191D4B578D0099E546 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		679BE51A1D4B578D0099E546 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67C6DA5F1D4EE00000572561 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				67C6DA601D4EE08400572561 /* ApiWeatherservice.h */,
+				67C6DA611D4EE08400572561 /* ApiWeatherservice.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		67FE47101D49937C00792E4F = {
@@ -380,7 +422,9 @@
 				679BE50D1D4B43560099E546 /* YTKBatchRequest.m in Sources */,
 				679BE50C1D4B43560099E546 /* YTKBaseRequest.m in Sources */,
 				679BE5111D4B43560099E546 /* YTKNetworkAgent.m in Sources */,
+				67C6DA621D4EE08400572561 /* ApiWeatherservice.m in Sources */,
 				679BE50E1D4B43560099E546 /* YTKBatchRequestAgent.m in Sources */,
+				679BE51D1D4B57A80099E546 /* NetworkController.m in Sources */,
 				679BE50F1D4B43560099E546 /* YTKChainRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +530,8 @@
 			baseConfigurationReference = D52406DEE0B92D5CBAEED7D3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_NOTICES = YES;
+				ASSETCATALOG_WARNINGS = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STHelperKit/STHelperKit.pch";
 				INFOPLIST_FILE = STHelperKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -499,6 +545,8 @@
 			baseConfigurationReference = 11DC35F9D0BF4A8353FB4A49 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_NOTICES = YES;
+				ASSETCATALOG_WARNINGS = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/STHelperKit/STHelperKit.pch";
 				INFOPLIST_FILE = STHelperKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -51,7 +51,7 @@
     return 60;
 }
 
-- (id)requestArgument {
+- (NSDictionary *)requestArgument {
     return nil;
 }
 

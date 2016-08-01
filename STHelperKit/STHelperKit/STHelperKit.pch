@@ -15,5 +15,6 @@
 #import "UIDevice+ST.h"
 
 #import "NSString+ST.h"
+#import "YTKRequest.h"
 
 #endif /* STHelperKit_pch */

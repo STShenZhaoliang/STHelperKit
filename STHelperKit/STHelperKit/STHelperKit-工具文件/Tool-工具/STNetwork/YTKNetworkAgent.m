@@ -83,7 +83,7 @@
 - (void)addRequest:(YTKBaseRequest *)request {
     YTKRequestMethod method = [request requestMethod];
     NSString *url = [self buildRequestUrl:request];
-    id param = request.requestArgument;
+    NSDictionary *param = request.requestArgument;
     AFConstructingBlock constructingBlock = [request constructingBodyBlock];
 
     if (request.requestSerializerType == YTKRequestSerializerTypeHTTP) {
@@ -93,7 +93,7 @@
     }
     
     _manager.requestSerializer.timeoutInterval = [request requestTimeoutInterval];
-    _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/plain", @"text/html", nil];
+//    _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/plain", @"text/html", nil];
     // if api need server username and password
     NSArray *authorizationHeaderFieldArray = [request requestAuthorizationHeaderFieldArray];
     if (authorizationHeaderFieldArray != nil) {
@@ -269,7 +269,9 @@
             [request toggleAccessoriesDidStopCallBack];
         }
     }else {
-        request.failureCompletionBlock(nil);
+        if (request.failureCompletionBlock) {
+            request.failureCompletionBlock(request);
+        }
     }
     [self removeOperation:operation];
     [request clearCompletionBlock];

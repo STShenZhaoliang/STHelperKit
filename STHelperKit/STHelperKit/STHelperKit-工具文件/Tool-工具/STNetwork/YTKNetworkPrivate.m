@@ -116,13 +116,13 @@ void YTKLog(NSString *format, ...) {
     //below is copied from AFNetworking but still escaped [] as AF leave them for Rails array parameter which we don't use.
     //https://github.com/AFNetworking/AFNetworking/pull/555
 
-    if (IS_IOS_9_OR_LATER) {
-        NSString *result = [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:@"`#%^{}\"[]|\\<> "].invertedSet];
-        return result;
-    }else {
+//    if (IS_IOS_9_OR_LATER) {
+//        NSString *result = [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:@"`#%^{}\"[]|\\<> "].invertedSet];
+//        return result;
+//    }else {
         NSString *result = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)str, CFSTR("."), CFSTR(":/?#[]@!$&'()*+,;="), kCFStringEncodingUTF8);
         return result;
-    }
+//    }
 }
 
 + (void)addDoNotBackupAttribute:(NSString *)path {
