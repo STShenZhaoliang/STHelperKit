@@ -24,6 +24,7 @@
 		679BE5171D4B4CAE0099E546 /* UIDevice+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE5161D4B4CAE0099E546 /* UIDevice+ST.m */; };
 		679BE51D1D4B57A80099E546 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE51C1D4B57A80099E546 /* NetworkController.m */; };
 		67C6DA621D4EE08400572561 /* ApiWeatherservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6DA611D4EE08400572561 /* ApiWeatherservice.m */; };
+		67CB53901D4F29650031984D /* STCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CB538F1D4F29650031984D /* STCommon.m */; };
 		67FE471E1D49937C00792E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE471D1D49937C00792E4F /* main.m */; };
 		67FE47211D49937C00792E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE47201D49937C00792E4F /* AppDelegate.m */; };
 		67FE47241D49937C00792E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE47231D49937C00792E4F /* ViewController.m */; };
@@ -66,6 +67,8 @@
 		679BE51C1D4B57A80099E546 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		67C6DA601D4EE08400572561 /* ApiWeatherservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWeatherservice.h; sourceTree = "<group>"; };
 		67C6DA611D4EE08400572561 /* ApiWeatherservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiWeatherservice.m; sourceTree = "<group>"; };
+		67CB538E1D4F29650031984D /* STCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCommon.h; sourceTree = "<group>"; };
+		67CB538F1D4F29650031984D /* STCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCommon.m; sourceTree = "<group>"; };
 		67FE47191D49937C00792E4F /* STHelperKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STHelperKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FE471D1D49937C00792E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67FE471F1D49937C00792E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 		679BE4E51D4AEB9C0099E546 /* Config-配置 */ = {
 			isa = PBXGroup;
 			children = (
+				67CB538E1D4F29650031984D /* STCommon.h */,
+				67CB538F1D4F29650031984D /* STCommon.m */,
 			);
 			path = "Config-配置";
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 				679BE4EA1D4AEF040099E546 /* UIColor+ST.m in Sources */,
 				67FE471E1D49937C00792E4F /* main.m in Sources */,
 				679BE50D1D4B43560099E546 /* YTKBatchRequest.m in Sources */,
+				67CB53901D4F29650031984D /* STCommon.m in Sources */,
 				679BE50C1D4B43560099E546 /* YTKBaseRequest.m in Sources */,
 				679BE5111D4B43560099E546 /* YTKNetworkAgent.m in Sources */,
 				67C6DA621D4EE08400572561 /* ApiWeatherservice.m in Sources */,
