@@ -93,7 +93,7 @@
     }
     
     _manager.requestSerializer.timeoutInterval = [request requestTimeoutInterval];
-//    _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/plain", @"text/html", nil];
+    _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/plain", @"text/html", nil];
     // if api need server username and password
     NSArray *authorizationHeaderFieldArray = [request requestAuthorizationHeaderFieldArray];
     if (authorizationHeaderFieldArray != nil) {
@@ -269,9 +269,24 @@
             [request toggleAccessoriesDidStopCallBack];
         }
     }else {
+
+
+        YTKLog(@"Request %@ failed, status code = %ld",
+               NSStringFromClass([request class]), (long)request.responseStatusCode);
+        [request toggleAccessoriesWillStopCallBack];
+        [request requestFailedFilter];
+        if (request.delegate != nil) {
+            [request.delegate requestFailed:request];
+        }
         if (request.failureCompletionBlock) {
             request.failureCompletionBlock(request);
         }
+        [request toggleAccessoriesDidStopCallBack];
+
+
+
+
+
     }
     [self removeOperation:operation];
     [request clearCompletionBlock];

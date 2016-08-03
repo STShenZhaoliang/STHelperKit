@@ -9,7 +9,9 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 
 #define STShowText(text) [STProgressHUD showWithText:(text) AddedTo:self.view];
-
+#define STShow           [STProgressHUD showToView:self.view];
 @interface STProgressHUD : MBProgressHUD
 + (void)showWithText:(NSString *)text AddedTo:(UIView *)view;
++ (void)showToView:(UIView *)view;
++ (STProgressHUD *)sharedInstance;
 @end

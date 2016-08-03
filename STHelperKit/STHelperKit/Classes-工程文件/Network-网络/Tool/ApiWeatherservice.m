@@ -26,11 +26,4 @@
 {
     return @{@"cityname":self.cityname};
 }
-
-- (NSDictionary *)requestHeaderFieldValueDictionary
-{
-    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
-    NSString *apikey = [infoDictionary valueForKeyPath:@"STCommon.BaiduApikey"];
-    return @{@"apikey":apikey};
-}
 @end

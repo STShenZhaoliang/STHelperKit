@@ -9,5 +9,6 @@
 #import "YTKRequest.h"
 
 @interface STNetwork : YTKRequest
-
+/** 1.提示框显示在的视图上 */
+@property (nonatomic, strong) UIView *view;
 @end
