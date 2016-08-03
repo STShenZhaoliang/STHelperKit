@@ -27,17 +27,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    [self.view setBackgroundColor:[UIColor redColor]];
     self.apiWeather.cityname = @"北京";
     [self.apiWeather startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
         NSLog(@"%s %@", __FUNCTION__, request.responseJSONObject);
+
+
+
     } failure:^(__kindof YTKBaseRequest *request) {
         NSLog(@"%s %@", __FUNCTION__, request);
     }];
+
+
+
+
 }
 #pragma mark - --- delegate 视图委托 ---
 
 #pragma mark - --- event response 事件相应 ---
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    STShowText(@"success")
+//    [STProgressHUD showWithText:@"success" AddedTo:self.view];
+}
 #pragma mark - --- private methods 私有方法 ---
 
 #pragma mark - --- setters 属性 ---

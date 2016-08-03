@@ -6,9 +6,9 @@
 //  Copyright © 2016年 沈兆良. All rights reserved.
 //
 
-#import "YTKRequest.h"
+#import "STNetwork.h"
 
-@interface ApiWeatherservice : YTKRequest
+@interface ApiWeatherservice : STNetwork
 /** 1.城市中文名称 */
 @property (nonatomic, strong) NSString *cityname;
 @end

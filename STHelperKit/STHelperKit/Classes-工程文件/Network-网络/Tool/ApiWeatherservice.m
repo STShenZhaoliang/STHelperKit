@@ -20,7 +20,7 @@
 
 - (NSString *)requestUrl
 {
-    return @"/apistore/weatherservice/citylist?" ;
+    return @"/apistore/weatherservice/citylist" ;
 }
 - (NSDictionary *)requestArgument
 {

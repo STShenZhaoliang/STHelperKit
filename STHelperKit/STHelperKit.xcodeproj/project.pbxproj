@@ -23,6 +23,8 @@
 		679BE5141D4B43560099E546 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE50B1D4B43560099E546 /* YTKRequest.m */; };
 		679BE5171D4B4CAE0099E546 /* UIDevice+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE5161D4B4CAE0099E546 /* UIDevice+ST.m */; };
 		679BE51D1D4B57A80099E546 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE51C1D4B57A80099E546 /* NetworkController.m */; };
+		67B3EAAF1D519ADD004AAFE1 /* STNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3EAAE1D519ADD004AAFE1 /* STNetwork.m */; };
+		67B3EAB21D51B465004AAFE1 /* STProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3EAB11D51B465004AAFE1 /* STProgressHUD.m */; };
 		67C6DA621D4EE08400572561 /* ApiWeatherservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6DA611D4EE08400572561 /* ApiWeatherservice.m */; };
 		67CB53901D4F29650031984D /* STCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CB538F1D4F29650031984D /* STCommon.m */; };
 		67FE471E1D49937C00792E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE471D1D49937C00792E4F /* main.m */; };
@@ -65,6 +67,10 @@
 		679BE5161D4B4CAE0099E546 /* UIDevice+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ST.m"; sourceTree = "<group>"; };
 		679BE51B1D4B57A80099E546 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		679BE51C1D4B57A80099E546 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		67B3EAAD1D519ADD004AAFE1 /* STNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
+		67B3EAAE1D519ADD004AAFE1 /* STNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNetwork.m; sourceTree = "<group>"; };
+		67B3EAB01D51B465004AAFE1 /* STProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STProgressHUD.h; sourceTree = "<group>"; };
+		67B3EAB11D51B465004AAFE1 /* STProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STProgressHUD.m; sourceTree = "<group>"; };
 		67C6DA601D4EE08400572561 /* ApiWeatherservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWeatherservice.h; sourceTree = "<group>"; };
 		67C6DA611D4EE08400572561 /* ApiWeatherservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiWeatherservice.m; sourceTree = "<group>"; };
 		67CB538E1D4F29650031984D /* STCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCommon.h; sourceTree = "<group>"; };
@@ -154,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				679BE4F91D4B42210099E546 /* STNetwork */,
+				67B3EAB01D51B465004AAFE1 /* STProgressHUD.h */,
+				67B3EAB11D51B465004AAFE1 /* STProgressHUD.m */,
 			);
 			path = "Tool-工具";
 			sourceTree = "<group>";
@@ -203,6 +211,8 @@
 				679BE5091D4B43560099E546 /* YTKNetworkPrivate.m */,
 				679BE50A1D4B43560099E546 /* YTKRequest.h */,
 				679BE50B1D4B43560099E546 /* YTKRequest.m */,
+				67B3EAAD1D519ADD004AAFE1 /* STNetwork.h */,
+				67B3EAAE1D519ADD004AAFE1 /* STNetwork.m */,
 			);
 			path = STNetwork;
 			sourceTree = "<group>";
@@ -426,10 +436,12 @@
 				67FE471E1D49937C00792E4F /* main.m in Sources */,
 				679BE50D1D4B43560099E546 /* YTKBatchRequest.m in Sources */,
 				67CB53901D4F29650031984D /* STCommon.m in Sources */,
+				67B3EAAF1D519ADD004AAFE1 /* STNetwork.m in Sources */,
 				679BE50C1D4B43560099E546 /* YTKBaseRequest.m in Sources */,
 				679BE5111D4B43560099E546 /* YTKNetworkAgent.m in Sources */,
 				67C6DA621D4EE08400572561 /* ApiWeatherservice.m in Sources */,
 				679BE50E1D4B43560099E546 /* YTKBatchRequestAgent.m in Sources */,
+				67B3EAB21D51B465004AAFE1 /* STProgressHUD.m in Sources */,
 				679BE51D1D4B57A80099E546 /* NetworkController.m in Sources */,
 				679BE50F1D4B43560099E546 /* YTKChainRequest.m in Sources */,
 			);
