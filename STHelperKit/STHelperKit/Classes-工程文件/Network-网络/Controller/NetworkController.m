@@ -28,6 +28,10 @@
 {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor redColor]];
+    
+    
+    NSLog(@"%s %@", __FUNCTION__, self);
+
 }
 #pragma mark - --- delegate 视图委托 ---
 
@@ -55,4 +59,5 @@
     }
     return _apiWeather;
 }
+
 @end

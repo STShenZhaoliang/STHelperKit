@@ -32,6 +32,7 @@
 		67FE47241D49937C00792E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE47231D49937C00792E4F /* ViewController.m */; };
 		67FE47291D49937C00792E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FE47281D49937C00792E4F /* Assets.xcassets */; };
 		67FE472C1D49937C00792E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FE472A1D49937C00792E4F /* LaunchScreen.storyboard */; };
+		70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A001D66F3B700AC4B0B /* NSData+ST.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,8 @@
 		67FE472B1D49937C00792E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67FE472D1D49937C00792E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6952B89F9A59D4B9DCC61463 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		700229FF1D66F3B700AC4B0B /* NSData+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ST.h"; sourceTree = "<group>"; };
+		70022A001D66F3B700AC4B0B /* NSData+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ST.m"; sourceTree = "<group>"; };
 		D52406DEE0B92D5CBAEED7D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +189,8 @@
 			children = (
 				679BE4F61D4B3C0F0099E546 /* NSString+ST.h */,
 				679BE4F71D4B3C0F0099E546 /* NSString+ST.m */,
+				700229FF1D66F3B700AC4B0B /* NSData+ST.h */,
+				70022A001D66F3B700AC4B0B /* NSData+ST.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 			files = (
 				679BE5171D4B4CAE0099E546 /* UIDevice+ST.m in Sources */,
 				67FE47241D49937C00792E4F /* ViewController.m in Sources */,
+				70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */,
 				679BE5121D4B43560099E546 /* YTKNetworkConfig.m in Sources */,
 				679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */,
 				679BE4EE1D4B05D40099E546 /* UIImage+ST.m in Sources */,
