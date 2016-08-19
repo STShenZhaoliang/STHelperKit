@@ -9,14 +9,15 @@
 
 #pragma mark - --- Controller 控制器 ---
 #import "ViewController.h"
-#import "NetworkController.h"
+#import "ViewTest0Controller.h"
+//#import "NetworkController.h"
 #pragma mark - --- View 视图 ---
 
 #pragma mark - --- Model 数据 ---
 
 #pragma mark - --- Tool 工具 ---
 #import "AppDelegate.h"
-#import "YTKNetworkConfig.h"
+//#import "YTKNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -37,10 +38,10 @@
 /** 1.配置网络 */
 - (void)setupNetwork
 {
-    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
-    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
-    NSString *baseUrl = [infoDictionary valueForKeyPath:@"STCommon.BaiduUrl"];
-    [config setBaseUrl:baseUrl];
+//    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
+//    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
+//    NSString *baseUrl = [infoDictionary valueForKeyPath:@"STCommon.BaiduUrl"];
+//    [config setBaseUrl:baseUrl];
 }
 
 /** 2.配置视图 */
@@ -48,7 +49,7 @@
 {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [NetworkController new];
+    self.window.rootViewController = [ViewTest0Controller new];
     [self.window makeKeyAndVisible];
 }
 

@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIImage *)imageWithColor:(UIColor *)color;
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
-
+/** 设置圆形图片(放到分类中使用) */
+- (UIImage *)imageToCircleImage;
 @end
 
 NS_ASSUME_NONNULL_END

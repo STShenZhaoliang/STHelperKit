@@ -14,6 +14,9 @@
 // Get weak reference object.
 #define Weak(caller, object) __weak __typeof(object) caller = object;
 
+#define STWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define STStrongSelf(type)  __strong typeof(type) type = weak##type;
+
 // Get strong reference object.
 #define StrongObject(object) __strong __typedef(object) strongObject = object;
 
@@ -45,10 +48,10 @@
 #pragma mark - Load Image
 
 // More easy way to load an image.
-#define Image(Name) ([UIImage imageNamed:Name])
+#define Image(Name) ([UIImage imageNamed:@#Name])
 
 // More easy to load an image from file.
-#define ImageOfFile(Name) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:Name ofType:nil]])
+#define ImageOfFile(Name) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@#Name ofType:nil]])
 
 #pragma mark - System Singletons
 
@@ -68,8 +71,6 @@
 // More easy way to post a notification with user info from notification center.
 #define PostNotificationWithNameAndUserInfo(notificationName, userInfo) \
 [NotificationCenter postNotificationName:notificationName object:nil userInfo:userInfo]
-
-
 
 @interface STCommon : NSObject
 
