@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D45AEBC53FAFA244AC48AC8 /* libPods-STHelperKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E3517E79F8A5B4C0EC3C9A /* libPods-STHelperKit.a */; };
 		679BE4EA1D4AEF040099E546 /* UIColor+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE4E91D4AEF040099E546 /* UIColor+ST.m */; };
 		679BE4EE1D4B05D40099E546 /* UIImage+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE4ED1D4B05D40099E546 /* UIImage+ST.m */; };
 		679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BE4F01D4B0A590099E546 /* UIView+ST.m */; };
@@ -21,6 +22,19 @@
 		70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A091D66F55900AC4B0B /* ViewTest0Controller.m */; };
 		70022A0C1D6707A700AC4B0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */; };
 		70022A0F1D670BC400AC4B0B /* STTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A0E1D670BC400AC4B0B /* STTextView.m */; };
+		70F854251D6BDB8A000D668E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854211D6BDB8A000D668E /* NetworkController.m */; };
+		70F854261D6BDB8A000D668E /* ApiWeatherservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854241D6BDB8A000D668E /* ApiWeatherservice.m */; };
+		70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8542A1D6BE07F000D668E /* STNetwork.m */; };
+		70F854401D6BE07F000D668E /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8542C1D6BE07F000D668E /* YTKBaseRequest.m */; };
+		70F854411D6BE07F000D668E /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8542E1D6BE07F000D668E /* YTKBatchRequest.m */; };
+		70F854421D6BE07F000D668E /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854301D6BE07F000D668E /* YTKBatchRequestAgent.m */; };
+		70F854431D6BE07F000D668E /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854321D6BE07F000D668E /* YTKChainRequest.m */; };
+		70F854441D6BE07F000D668E /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854341D6BE07F000D668E /* YTKChainRequestAgent.m */; };
+		70F854451D6BE07F000D668E /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854361D6BE07F000D668E /* YTKNetworkAgent.m */; };
+		70F854461D6BE07F000D668E /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854381D6BE07F000D668E /* YTKNetworkConfig.m */; };
+		70F854471D6BE07F000D668E /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8543A1D6BE07F000D668E /* YTKNetworkPrivate.m */; };
+		70F854481D6BE07F000D668E /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8543C1D6BE07F000D668E /* YTKRequest.m */; };
+		70F854491D6BE07F000D668E /* STProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8543E1D6BE07F000D668E /* STProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +59,7 @@
 		67FE47231D49937C00792E4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		67FE47281D49937C00792E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67FE472D1D49937C00792E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F58962C515D43E850A75464 /* Pods-STHelperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHelperKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-STHelperKit/Pods-STHelperKit.release.xcconfig"; sourceTree = "<group>"; };
 		700229FF1D66F3B700AC4B0B /* NSData+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ST.h"; sourceTree = "<group>"; };
 		70022A001D66F3B700AC4B0B /* NSData+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ST.m"; sourceTree = "<group>"; };
 		70022A081D66F55900AC4B0B /* ViewTest0Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTest0Controller.h; sourceTree = "<group>"; };
@@ -52,6 +67,34 @@
 		70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		70022A0D1D670BC400AC4B0B /* STTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTextView.h; sourceTree = "<group>"; };
 		70022A0E1D670BC400AC4B0B /* STTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTextView.m; sourceTree = "<group>"; };
+		70F854201D6BDB8A000D668E /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		70F854211D6BDB8A000D668E /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		70F854231D6BDB8A000D668E /* ApiWeatherservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWeatherservice.h; sourceTree = "<group>"; };
+		70F854241D6BDB8A000D668E /* ApiWeatherservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiWeatherservice.m; sourceTree = "<group>"; };
+		70F854291D6BE07F000D668E /* STNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
+		70F8542A1D6BE07F000D668E /* STNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNetwork.m; sourceTree = "<group>"; };
+		70F8542B1D6BE07F000D668E /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		70F8542C1D6BE07F000D668E /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		70F8542D1D6BE07F000D668E /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		70F8542E1D6BE07F000D668E /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		70F8542F1D6BE07F000D668E /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		70F854301D6BE07F000D668E /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		70F854311D6BE07F000D668E /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		70F854321D6BE07F000D668E /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		70F854331D6BE07F000D668E /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		70F854341D6BE07F000D668E /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		70F854351D6BE07F000D668E /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		70F854361D6BE07F000D668E /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		70F854371D6BE07F000D668E /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		70F854381D6BE07F000D668E /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		70F854391D6BE07F000D668E /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		70F8543A1D6BE07F000D668E /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		70F8543B1D6BE07F000D668E /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		70F8543C1D6BE07F000D668E /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		70F8543D1D6BE07F000D668E /* STProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STProgressHUD.h; sourceTree = "<group>"; };
+		70F8543E1D6BE07F000D668E /* STProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STProgressHUD.m; sourceTree = "<group>"; };
+		D5E3517E79F8A5B4C0EC3C9A /* libPods-STHelperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STHelperKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEC40CE0E60F1D642410B0A /* Pods-STHelperKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STHelperKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STHelperKit/Pods-STHelperKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D45AEBC53FAFA244AC48AC8 /* libPods-STHelperKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59E5688D26024A8E24EEC52B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC40CE0E60F1D642410B0A /* Pods-STHelperKit.debug.xcconfig */,
+				6F58962C515D43E850A75464 /* Pods-STHelperKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		679BE4E11D4AE8370099E546 /* STHelperKit-工具文件 */ = {
 			isa = PBXGroup;
 			children = (
+				70F854271D6BE07F000D668E /* Tool-工具 */,
 				679BE4E51D4AEB9C0099E546 /* Config-配置 */,
 				679BE4E41D4AEB800099E546 /* Category-类别 */,
 			);
@@ -77,6 +131,7 @@
 		679BE4E21D4AEADA0099E546 /* Classes-工程文件 */ = {
 			isa = PBXGroup;
 			children = (
+				70F8541E1D6BDB8A000D668E /* Network-网络 */,
 				70022A041D66F53B00AC4B0B /* View-视图 */,
 			);
 			path = "Classes-工程文件";
@@ -135,6 +190,7 @@
 				67FE471B1D49937C00792E4F /* STHelperKit */,
 				67FE471A1D49937C00792E4F /* Products */,
 				E6DC1918381A41359D199370 /* Frameworks */,
+				59E5688D26024A8E24EEC52B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,9 +260,74 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		70F8541E1D6BDB8A000D668E /* Network-网络 */ = {
+			isa = PBXGroup;
+			children = (
+				70F8541F1D6BDB8A000D668E /* Controller */,
+				70F854221D6BDB8A000D668E /* Tool */,
+			);
+			path = "Network-网络";
+			sourceTree = "<group>";
+		};
+		70F8541F1D6BDB8A000D668E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70F854201D6BDB8A000D668E /* NetworkController.h */,
+				70F854211D6BDB8A000D668E /* NetworkController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70F854221D6BDB8A000D668E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				70F854231D6BDB8A000D668E /* ApiWeatherservice.h */,
+				70F854241D6BDB8A000D668E /* ApiWeatherservice.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		70F854271D6BE07F000D668E /* Tool-工具 */ = {
+			isa = PBXGroup;
+			children = (
+				70F854281D6BE07F000D668E /* STNetwork */,
+				70F8543D1D6BE07F000D668E /* STProgressHUD.h */,
+				70F8543E1D6BE07F000D668E /* STProgressHUD.m */,
+			);
+			path = "Tool-工具";
+			sourceTree = "<group>";
+		};
+		70F854281D6BE07F000D668E /* STNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				70F854291D6BE07F000D668E /* STNetwork.h */,
+				70F8542A1D6BE07F000D668E /* STNetwork.m */,
+				70F8542B1D6BE07F000D668E /* YTKBaseRequest.h */,
+				70F8542C1D6BE07F000D668E /* YTKBaseRequest.m */,
+				70F8542D1D6BE07F000D668E /* YTKBatchRequest.h */,
+				70F8542E1D6BE07F000D668E /* YTKBatchRequest.m */,
+				70F8542F1D6BE07F000D668E /* YTKBatchRequestAgent.h */,
+				70F854301D6BE07F000D668E /* YTKBatchRequestAgent.m */,
+				70F854311D6BE07F000D668E /* YTKChainRequest.h */,
+				70F854321D6BE07F000D668E /* YTKChainRequest.m */,
+				70F854331D6BE07F000D668E /* YTKChainRequestAgent.h */,
+				70F854341D6BE07F000D668E /* YTKChainRequestAgent.m */,
+				70F854351D6BE07F000D668E /* YTKNetworkAgent.h */,
+				70F854361D6BE07F000D668E /* YTKNetworkAgent.m */,
+				70F854371D6BE07F000D668E /* YTKNetworkConfig.h */,
+				70F854381D6BE07F000D668E /* YTKNetworkConfig.m */,
+				70F854391D6BE07F000D668E /* YTKNetworkPrivate.h */,
+				70F8543A1D6BE07F000D668E /* YTKNetworkPrivate.m */,
+				70F8543B1D6BE07F000D668E /* YTKRequest.h */,
+				70F8543C1D6BE07F000D668E /* YTKRequest.m */,
+			);
+			path = STNetwork;
+			sourceTree = "<group>";
+		};
 		E6DC1918381A41359D199370 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5E3517E79F8A5B4C0EC3C9A /* libPods-STHelperKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67FE47301D49937C00792E4F /* Build configuration list for PBXNativeTarget "STHelperKit" */;
 			buildPhases = (
+				86CDDB7A5653DF90386AEA24 /* [CP] Check Pods Manifest.lock */,
 				67FE47151D49937C00792E4F /* Sources */,
 				67FE47161D49937C00792E4F /* Frameworks */,
 				67FE47171D49937C00792E4F /* Resources */,
+				12BD8C059403914756B0A3F5 /* [CP] Embed Pods Frameworks */,
+				4B3EEF707C4C4FC47A45BF9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +399,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12BD8C059403914756B0A3F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STHelperKit/Pods-STHelperKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3EEF707C4C4FC47A45BF9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STHelperKit/Pods-STHelperKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CDDB7A5653DF90386AEA24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67FE47151D49937C00792E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -283,15 +455,28 @@
 				679BE5171D4B4CAE0099E546 /* UIDevice+ST.m in Sources */,
 				67FE47241D49937C00792E4F /* ViewController.m in Sources */,
 				70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */,
+				70F854261D6BDB8A000D668E /* ApiWeatherservice.m in Sources */,
+				70F854441D6BE07F000D668E /* YTKChainRequestAgent.m in Sources */,
 				679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */,
+				70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */,
+				70F854451D6BE07F000D668E /* YTKNetworkAgent.m in Sources */,
+				70F854431D6BE07F000D668E /* YTKChainRequest.m in Sources */,
 				679BE4EE1D4B05D40099E546 /* UIImage+ST.m in Sources */,
+				70F854491D6BE07F000D668E /* STProgressHUD.m in Sources */,
+				70F854401D6BE07F000D668E /* YTKBaseRequest.m in Sources */,
 				679BE4F81D4B3C0F0099E546 /* NSString+ST.m in Sources */,
 				70022A0F1D670BC400AC4B0B /* STTextView.m in Sources */,
+				70F854461D6BE07F000D668E /* YTKNetworkConfig.m in Sources */,
 				67FE47211D49937C00792E4F /* AppDelegate.m in Sources */,
 				679BE4EA1D4AEF040099E546 /* UIColor+ST.m in Sources */,
+				70F854481D6BE07F000D668E /* YTKRequest.m in Sources */,
+				70F854411D6BE07F000D668E /* YTKBatchRequest.m in Sources */,
 				67FE471E1D49937C00792E4F /* main.m in Sources */,
+				70F854471D6BE07F000D668E /* YTKNetworkPrivate.m in Sources */,
 				67CB53901D4F29650031984D /* STCommon.m in Sources */,
+				70F854251D6BDB8A000D668E /* NetworkController.m in Sources */,
 				70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */,
+				70F854421D6BE07F000D668E /* YTKBatchRequestAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +567,7 @@
 		};
 		67FE47311D49937C00792E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEC40CE0E60F1D642410B0A /* Pods-STHelperKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_NOTICES = YES;
@@ -397,6 +583,7 @@
 		};
 		67FE47321D49937C00792E4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F58962C515D43E850A75464 /* Pods-STHelperKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_NOTICES = YES;
