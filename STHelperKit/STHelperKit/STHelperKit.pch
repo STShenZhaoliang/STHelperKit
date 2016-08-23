@@ -9,6 +9,16 @@
 #ifndef STHelperKit_pch
 #define STHelperKit_pch
 
+#pragma mark - --- 1.Tool 工具 ---
+#import "STProgressHUD.h"
+#import "STNetwork.h"
+#import "STTextView.h"
+#import "STBarButtonItem.h"
+
+#pragma mark - --- 2.Config 配置 ---
+#import "STCommon.h"
+
+#pragma mark - --- 3.Category 类别 ---
 #import "UIColor+ST.h"
 #import "UIImage+ST.h"
 #import "UIView+ST.h"
@@ -16,14 +26,8 @@
 
 #import "NSString+ST.h"
 
-#import "STCommon.h"
-#import "STProgressHUD.h"
-#import "STNetwork.h"
-
+#pragma mark - --- 4.Lib 库 ---
 #import "YTKRequest.h"
 #import <MBProgressHUD.h>
-
-#import "STTextView.h"
-
 
 #endif /* STHelperKit_pch */

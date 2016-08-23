@@ -10,14 +10,17 @@
 #pragma mark - --- Controller 控制器 ---
 #import "ViewController.h"
 #import "ViewTest0Controller.h"
-//#import "NetworkController.h"
+#import "NetworkController.h"
+
+#import "STNavigationController.h"
+#import "ViewNav0Controller.h"
 #pragma mark - --- View 视图 ---
 
 #pragma mark - --- Model 数据 ---
 
 #pragma mark - --- Tool 工具 ---
 #import "AppDelegate.h"
-//#import "YTKNetworkConfig.h"
+#import "YTKNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -28,7 +31,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     /** 1.配置网络 */
-    [self setupNetwork];
+//    [self setupNetwork];
 
     /** 2.配置视图 */
     [self setupUI];
@@ -38,10 +41,10 @@
 /** 1.配置网络 */
 - (void)setupNetwork
 {
-//    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
-//    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
-//    NSString *baseUrl = [infoDictionary valueForKeyPath:@"STCommon.BaiduUrl"];
-//    [config setBaseUrl:baseUrl];
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
+    NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;
+    NSString *baseUrl = [infoDictionary valueForKeyPath:@"STCommon.BaiduUrl"];
+    [config setBaseUrl:baseUrl];
 }
 
 /** 2.配置视图 */
@@ -49,7 +52,9 @@
 {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [ViewTest0Controller new];
+    
+    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[ViewNav0Controller new]];
+    self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];
 }
 
