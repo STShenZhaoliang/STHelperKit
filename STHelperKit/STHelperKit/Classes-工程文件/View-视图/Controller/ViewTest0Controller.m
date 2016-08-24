@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_END
 - (UIImageView *)imageView
 {
     if (!_imageView) {
-        _imageView = [[UIImageView alloc]initWithImage:Image(icon_header)];
+        _imageView = [[UIImageView alloc]initWithImage:Image(@"icon_header")];
     }
     return _imageView;
 }
@@ -63,7 +63,7 @@ NS_ASSUME_NONNULL_END
 - (UIImageView *)imageIcon
 {
     if (!_imageIcon) {
-        _imageIcon = [[UIImageView alloc]initWithImage:[Image(icon_header) imageToCircleImage]];
+        _imageIcon = [[UIImageView alloc]initWithImage:[Image(@"icon_header") imageToCircleImage]];
     }
     return _imageIcon;
 }

@@ -48,7 +48,7 @@
 #pragma mark - Load Image
 
 // More easy way to load an image.
-#define Image(Name) ([UIImage imageNamed:@#Name])
+#define Image(Name) ([UIImage imageNamed:Name])
 
 // More easy to load an image from file.
 #define ImageOfFile(Name) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@#Name ofType:nil]])

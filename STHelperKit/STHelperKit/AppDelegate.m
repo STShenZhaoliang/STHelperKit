@@ -14,6 +14,7 @@
 
 #import "STNavigationController.h"
 #import "ViewNav0Controller.h"
+#import "STTableAnimationController.h"
 #pragma mark - --- View 视图 ---
 
 #pragma mark - --- Model 数据 ---
@@ -53,8 +54,10 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[ViewNav0Controller new]];
-    self.window.rootViewController = navVC;
+//    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[ViewNav0Controller new]];
+    
+    
+    self.window.rootViewController = [STTableAnimationController new];
     [self.window makeKeyAndVisible];
 }
 

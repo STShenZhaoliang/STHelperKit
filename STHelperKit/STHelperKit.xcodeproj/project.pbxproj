@@ -21,6 +21,9 @@
 		70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A001D66F3B700AC4B0B /* NSData+ST.m */; };
 		70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A091D66F55900AC4B0B /* ViewTest0Controller.m */; };
 		70022A0C1D6707A700AC4B0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */; };
+		705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */; };
+		705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB11D6D2E08000F384C /* STTableViewCell.m */; };
+		705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */; };
 		70F854251D6BDB8A000D668E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854211D6BDB8A000D668E /* NetworkController.m */; };
 		70F854261D6BDB8A000D668E /* ApiWeatherservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854241D6BDB8A000D668E /* ApiWeatherservice.m */; };
 		70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8542A1D6BE07F000D668E /* STNetwork.m */; };
@@ -70,6 +73,12 @@
 		70022A081D66F55900AC4B0B /* ViewTest0Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTest0Controller.h; sourceTree = "<group>"; };
 		70022A091D66F55900AC4B0B /* ViewTest0Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTest0Controller.m; sourceTree = "<group>"; };
 		70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		705B3FAC1D6D2CBA000F384C /* STTableAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableAnimationController.h; sourceTree = "<group>"; };
+		705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationController.m; sourceTree = "<group>"; };
+		705B3FB01D6D2E08000F384C /* STTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewCell.h; sourceTree = "<group>"; };
+		705B3FB11D6D2E08000F384C /* STTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewCell.m; sourceTree = "<group>"; };
+		705B3FB31D6D2ED7000F384C /* STTableAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableAnimationCell.h; sourceTree = "<group>"; };
+		705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationCell.m; sourceTree = "<group>"; };
 		70F854201D6BDB8A000D668E /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		70F854211D6BDB8A000D668E /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		70F854231D6BDB8A000D668E /* ApiWeatherservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWeatherservice.h; sourceTree = "<group>"; };
@@ -257,6 +266,8 @@
 			children = (
 				70022A081D66F55900AC4B0B /* ViewTest0Controller.h */,
 				70022A091D66F55900AC4B0B /* ViewTest0Controller.m */,
+				705B3FAC1D6D2CBA000F384C /* STTableAnimationController.h */,
+				705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,8 +282,19 @@
 		70022A071D66F53B00AC4B0B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				705B3FB31D6D2ED7000F384C /* STTableAnimationCell.h */,
+				705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		705B3FAF1D6D2DF0000F384C /* STTabViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				705B3FB01D6D2E08000F384C /* STTableViewCell.h */,
+				705B3FB11D6D2E08000F384C /* STTableViewCell.m */,
+			);
+			name = STTabViewCell;
 			sourceTree = "<group>";
 		};
 		70F8541E1D6BDB8A000D668E /* Network-网络 */ = {
@@ -305,6 +327,7 @@
 		70F854271D6BE07F000D668E /* Tool-工具 */ = {
 			isa = PBXGroup;
 			children = (
+				705B3FAF1D6D2DF0000F384C /* STTabViewCell */,
 				70F8545A1D6BFCAE000D668E /* STBarButtonItem */,
 				70F854591D6BF18D000D668E /* STProgressHUD */,
 				70F854581D6BF179000D668E /* STTextView */,
@@ -563,10 +586,13 @@
 				70F854541D6BE720000D668E /* STNavigationController.m in Sources */,
 				70F854481D6BE07F000D668E /* YTKRequest.m in Sources */,
 				70F854411D6BE07F000D668E /* YTKBatchRequest.m in Sources */,
+				705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */,
 				67FE471E1D49937C00792E4F /* main.m in Sources */,
 				70F854471D6BE07F000D668E /* YTKNetworkPrivate.m in Sources */,
 				70F854601D6BFFC2000D668E /* ViewNav0Controller.m in Sources */,
+				705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */,
 				67CB53901D4F29650031984D /* STCommon.m in Sources */,
+				705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */,
 				70F854251D6BDB8A000D668E /* NetworkController.m in Sources */,
 				70F854571D6BF170000D668E /* STTextView.m in Sources */,
 				70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */,
