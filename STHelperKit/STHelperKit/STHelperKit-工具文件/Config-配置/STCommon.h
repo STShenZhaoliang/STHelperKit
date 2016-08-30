@@ -72,6 +72,26 @@
 #define PostNotificationWithNameAndUserInfo(notificationName, userInfo) \
 [NotificationCenter postNotificationName:notificationName object:nil userInfo:userInfo]
 
+//16.沙盒目录文件
+//获取temp
+#define kPathTemp NSTemporaryDirectory()
+
+//获取沙盒 Document
+#define kPathDocument [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+
+//获取沙盒 Cache
+#define kPathCache [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
+//17.GCD 的宏定义
+//GCD - 一次性执行
+#define kDISPATCH_ONCE_BLOCK(onceBlock) static dispatch_once_t onceToken; dispatch_once(&onceToken, onceBlock);
+
+//GCD - 在Main线程上运行
+#define kDISPATCH_MAIN_THREAD(mainQueueBlock) dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
+
+//GCD - 开启异步线程
+#define kDISPATCH_GLOBAL_QUEUE_DEFAULT(globalQueueBlock) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlocl);
+
 @interface STCommon : NSObject
 
 @end

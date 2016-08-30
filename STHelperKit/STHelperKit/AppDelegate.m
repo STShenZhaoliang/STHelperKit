@@ -15,6 +15,9 @@
 #import "STNavigationController.h"
 #import "ViewNav0Controller.h"
 #import "STTableAnimationController.h"
+
+#import "AutorotateController.h"
+
 #pragma mark - --- View 视图 ---
 
 #pragma mark - --- Model 数据 ---
@@ -54,12 +57,26 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-//    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[ViewNav0Controller new]];
-    
-    
-    self.window.rootViewController = [STTableAnimationController new];
+    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[AutorotateController new]];
+    self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];
 }
 
+/** 3.控制页面的横竖屏 */
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    if (_allowRotation == 1) {
+        return UIInterfaceOrientationMaskAll;
+    }else {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+}
 
+- (BOOL)shouldAutorotate
+{
+    if (_allowRotation == 1) {
+        return YES;
+    }
+    return YES;
+}
 @end

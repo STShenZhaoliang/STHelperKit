@@ -24,6 +24,8 @@
 		705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */; };
 		705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB11D6D2E08000F384C /* STTableViewCell.m */; };
 		705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */; };
+		70F23F221D755E1500296E70 /* PortraitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F211D755E1500296E70 /* PortraitController.m */; };
+		70F23F251D755E9600296E70 /* AutorotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F241D755E9600296E70 /* AutorotateController.m */; };
 		70F854251D6BDB8A000D668E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854211D6BDB8A000D668E /* NetworkController.m */; };
 		70F854261D6BDB8A000D668E /* ApiWeatherservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854241D6BDB8A000D668E /* ApiWeatherservice.m */; };
 		70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F8542A1D6BE07F000D668E /* STNetwork.m */; };
@@ -79,6 +81,10 @@
 		705B3FB11D6D2E08000F384C /* STTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewCell.m; sourceTree = "<group>"; };
 		705B3FB31D6D2ED7000F384C /* STTableAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableAnimationCell.h; sourceTree = "<group>"; };
 		705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationCell.m; sourceTree = "<group>"; };
+		70F23F201D755E1500296E70 /* PortraitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitController.h; sourceTree = "<group>"; };
+		70F23F211D755E1500296E70 /* PortraitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitController.m; sourceTree = "<group>"; };
+		70F23F231D755E9600296E70 /* AutorotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutorotateController.h; sourceTree = "<group>"; };
+		70F23F241D755E9600296E70 /* AutorotateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutorotateController.m; sourceTree = "<group>"; };
 		70F854201D6BDB8A000D668E /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		70F854211D6BDB8A000D668E /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		70F854231D6BDB8A000D668E /* ApiWeatherservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWeatherservice.h; sourceTree = "<group>"; };
@@ -155,6 +161,7 @@
 		679BE4E21D4AEADA0099E546 /* Classes-工程文件 */ = {
 			isa = PBXGroup;
 			children = (
+				70F23F1F1D755D7200296E70 /* Portrait-指定竖屏 */,
 				70F854511D6BE6F6000D668E /* Navigation-导航 */,
 				70F8544A1D6BE49C000D668E /* TabBar-标签栏 */,
 				70F8541E1D6BDB8A000D668E /* Network-网络 */,
@@ -295,6 +302,17 @@
 				705B3FB11D6D2E08000F384C /* STTableViewCell.m */,
 			);
 			name = STTabViewCell;
+			sourceTree = "<group>";
+		};
+		70F23F1F1D755D7200296E70 /* Portrait-指定竖屏 */ = {
+			isa = PBXGroup;
+			children = (
+				70F23F201D755E1500296E70 /* PortraitController.h */,
+				70F23F211D755E1500296E70 /* PortraitController.m */,
+				70F23F231D755E9600296E70 /* AutorotateController.h */,
+				70F23F241D755E9600296E70 /* AutorotateController.m */,
+			);
+			name = "Portrait-指定竖屏";
 			sourceTree = "<group>";
 		};
 		70F8541E1D6BDB8A000D668E /* Network-网络 */ = {
@@ -564,6 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F23F221D755E1500296E70 /* PortraitController.m in Sources */,
 				679BE5171D4B4CAE0099E546 /* UIDevice+ST.m in Sources */,
 				67FE47241D49937C00792E4F /* ViewController.m in Sources */,
 				70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */,
@@ -573,6 +592,7 @@
 				679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */,
 				70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */,
 				70F854451D6BE07F000D668E /* YTKNetworkAgent.m in Sources */,
+				70F23F251D755E9600296E70 /* AutorotateController.m in Sources */,
 				70F854431D6BE07F000D668E /* YTKChainRequest.m in Sources */,
 				679BE4EE1D4B05D40099E546 /* UIImage+ST.m in Sources */,
 				70F854501D6BE58E000D668E /* STTabBarController.m in Sources */,
