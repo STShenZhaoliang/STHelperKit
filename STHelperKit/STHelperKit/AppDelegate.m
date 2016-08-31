@@ -17,6 +17,7 @@
 #import "STTableAnimationController.h"
 
 #import "AutorotateController.h"
+#import "CollectionDemo1Controller.h"
 
 #pragma mark - --- View 视图 ---
 
@@ -57,8 +58,11 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[AutorotateController new]];
-    self.window.rootViewController = navVC;
+//    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[AutorotateController new]];
+    
+    
+    CollectionDemo1Controller *vc = [CollectionDemo1Controller new];
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
 }
 

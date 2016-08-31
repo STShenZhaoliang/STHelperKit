@@ -21,9 +21,12 @@
 		70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A001D66F3B700AC4B0B /* NSData+ST.m */; };
 		70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A091D66F55900AC4B0B /* ViewTest0Controller.m */; };
 		70022A0C1D6707A700AC4B0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */; };
+		704CE18B1D768AEF00315C2D /* CollectionDemo1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 704CE18A1D768AEF00315C2D /* CollectionDemo1Cell.m */; };
+		704CE18E1D768B2200315C2D /* CollectionDemo1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 704CE18D1D768B2200315C2D /* CollectionDemo1Controller.m */; };
 		705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */; };
 		705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB11D6D2E08000F384C /* STTableViewCell.m */; };
 		705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */; };
+		70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FF81D76B61F00CA96E7 /* STMargin.m */; };
 		70F23F221D755E1500296E70 /* PortraitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F211D755E1500296E70 /* PortraitController.m */; };
 		70F23F251D755E9600296E70 /* AutorotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F241D755E9600296E70 /* AutorotateController.m */; };
 		70F854251D6BDB8A000D668E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854211D6BDB8A000D668E /* NetworkController.m */; };
@@ -75,12 +78,18 @@
 		70022A081D66F55900AC4B0B /* ViewTest0Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTest0Controller.h; sourceTree = "<group>"; };
 		70022A091D66F55900AC4B0B /* ViewTest0Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTest0Controller.m; sourceTree = "<group>"; };
 		70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		704CE1891D768AEF00315C2D /* CollectionDemo1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo1Cell.h; sourceTree = "<group>"; };
+		704CE18A1D768AEF00315C2D /* CollectionDemo1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo1Cell.m; sourceTree = "<group>"; };
+		704CE18C1D768B2200315C2D /* CollectionDemo1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo1Controller.h; sourceTree = "<group>"; };
+		704CE18D1D768B2200315C2D /* CollectionDemo1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo1Controller.m; sourceTree = "<group>"; };
 		705B3FAC1D6D2CBA000F384C /* STTableAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableAnimationController.h; sourceTree = "<group>"; };
 		705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationController.m; sourceTree = "<group>"; };
 		705B3FB01D6D2E08000F384C /* STTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewCell.h; sourceTree = "<group>"; };
 		705B3FB11D6D2E08000F384C /* STTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewCell.m; sourceTree = "<group>"; };
 		705B3FB31D6D2ED7000F384C /* STTableAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableAnimationCell.h; sourceTree = "<group>"; };
 		705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationCell.m; sourceTree = "<group>"; };
+		70858FF71D76B61F00CA96E7 /* STMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMargin.h; sourceTree = "<group>"; };
+		70858FF81D76B61F00CA96E7 /* STMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMargin.m; sourceTree = "<group>"; };
 		70F23F201D755E1500296E70 /* PortraitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitController.h; sourceTree = "<group>"; };
 		70F23F211D755E1500296E70 /* PortraitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitController.m; sourceTree = "<group>"; };
 		70F23F231D755E9600296E70 /* AutorotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutorotateController.h; sourceTree = "<group>"; };
@@ -161,6 +170,7 @@
 		679BE4E21D4AEADA0099E546 /* Classes-工程文件 */ = {
 			isa = PBXGroup;
 			children = (
+				704CE1841D7687B400315C2D /* Collection-集合视图 */,
 				70F23F1F1D755D7200296E70 /* Portrait-指定竖屏 */,
 				70F854511D6BE6F6000D668E /* Navigation-导航 */,
 				70F8544A1D6BE49C000D668E /* TabBar-标签栏 */,
@@ -184,6 +194,8 @@
 			children = (
 				67CB538E1D4F29650031984D /* STCommon.h */,
 				67CB538F1D4F29650031984D /* STCommon.m */,
+				70858FF71D76B61F00CA96E7 /* STMargin.h */,
+				70858FF81D76B61F00CA96E7 /* STMargin.m */,
 			);
 			path = "Config-配置";
 			sourceTree = "<group>";
@@ -295,6 +307,50 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		704CE1841D7687B400315C2D /* Collection-集合视图 */ = {
+			isa = PBXGroup;
+			children = (
+				70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */,
+				704CE1851D768A2A00315C2D /* Demo1-网格视图 */,
+			);
+			path = "Collection-集合视图";
+			sourceTree = "<group>";
+		};
+		704CE1851D768A2A00315C2D /* Demo1-网格视图 */ = {
+			isa = PBXGroup;
+			children = (
+				704CE1861D768A7500315C2D /* Controller */,
+				704CE1871D768A7500315C2D /* Model */,
+				704CE1881D768A7500315C2D /* View */,
+			);
+			path = "Demo1-网格视图";
+			sourceTree = "<group>";
+		};
+		704CE1861D768A7500315C2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				704CE18C1D768B2200315C2D /* CollectionDemo1Controller.h */,
+				704CE18D1D768B2200315C2D /* CollectionDemo1Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		704CE1871D768A7500315C2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		704CE1881D768A7500315C2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				704CE1891D768AEF00315C2D /* CollectionDemo1Cell.h */,
+				704CE18A1D768AEF00315C2D /* CollectionDemo1Cell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		705B3FAF1D6D2DF0000F384C /* STTabViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +358,13 @@
 				705B3FB11D6D2E08000F384C /* STTableViewCell.m */,
 			);
 			name = STTabViewCell;
+			sourceTree = "<group>";
+		};
+		70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Demo2-无限轮播";
 			sourceTree = "<group>";
 		};
 		70F23F1F1D755D7200296E70 /* Portrait-指定竖屏 */ = {
@@ -312,7 +375,7 @@
 				70F23F231D755E9600296E70 /* AutorotateController.h */,
 				70F23F241D755E9600296E70 /* AutorotateController.m */,
 			);
-			name = "Portrait-指定竖屏";
+			path = "Portrait-指定竖屏";
 			sourceTree = "<group>";
 		};
 		70F8541E1D6BDB8A000D668E /* Network-网络 */ = {
@@ -424,7 +487,7 @@
 				70F854611D6BFFEF000D668E /* ViewNav1Controller.h */,
 				70F854621D6BFFEF000D668E /* ViewNav1Controller.m */,
 			);
-			name = "Navigation-导航";
+			path = "Navigation-导航";
 			sourceTree = "<group>";
 		};
 		70F854581D6BF179000D668E /* STTextView */ = {
@@ -589,6 +652,8 @@
 				70F854261D6BDB8A000D668E /* ApiWeatherservice.m in Sources */,
 				70F854631D6BFFEF000D668E /* ViewNav1Controller.m in Sources */,
 				70F854441D6BE07F000D668E /* YTKChainRequestAgent.m in Sources */,
+				704CE18E1D768B2200315C2D /* CollectionDemo1Controller.m in Sources */,
+				70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */,
 				679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */,
 				70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */,
 				70F854451D6BE07F000D668E /* YTKNetworkAgent.m in Sources */,
@@ -616,6 +681,7 @@
 				70F854251D6BDB8A000D668E /* NetworkController.m in Sources */,
 				70F854571D6BF170000D668E /* STTextView.m in Sources */,
 				70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */,
+				704CE18B1D768AEF00315C2D /* CollectionDemo1Cell.m in Sources */,
 				70F854421D6BE07F000D668E /* YTKBatchRequestAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
