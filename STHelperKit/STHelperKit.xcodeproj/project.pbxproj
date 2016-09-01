@@ -27,6 +27,8 @@
 		705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB11D6D2E08000F384C /* STTableViewCell.m */; };
 		705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */; };
 		70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FF81D76B61F00CA96E7 /* STMargin.m */; };
+		708590001D76BFA700CA96E7 /* CollectionDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FFF1D76BFA700CA96E7 /* CollectionDemo2Controller.m */; };
+		708590031D76C05F00CA96E7 /* CollectionDemo2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 708590021D76C05F00CA96E7 /* CollectionDemo2Cell.m */; };
 		70F23F221D755E1500296E70 /* PortraitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F211D755E1500296E70 /* PortraitController.m */; };
 		70F23F251D755E9600296E70 /* AutorotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F241D755E9600296E70 /* AutorotateController.m */; };
 		70F854251D6BDB8A000D668E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854211D6BDB8A000D668E /* NetworkController.m */; };
@@ -90,6 +92,10 @@
 		705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationCell.m; sourceTree = "<group>"; };
 		70858FF71D76B61F00CA96E7 /* STMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMargin.h; sourceTree = "<group>"; };
 		70858FF81D76B61F00CA96E7 /* STMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMargin.m; sourceTree = "<group>"; };
+		70858FFE1D76BFA700CA96E7 /* CollectionDemo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo2Controller.h; sourceTree = "<group>"; };
+		70858FFF1D76BFA700CA96E7 /* CollectionDemo2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo2Controller.m; sourceTree = "<group>"; };
+		708590011D76C05F00CA96E7 /* CollectionDemo2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo2Cell.h; sourceTree = "<group>"; };
+		708590021D76C05F00CA96E7 /* CollectionDemo2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo2Cell.m; sourceTree = "<group>"; };
 		70F23F201D755E1500296E70 /* PortraitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitController.h; sourceTree = "<group>"; };
 		70F23F211D755E1500296E70 /* PortraitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitController.m; sourceTree = "<group>"; };
 		70F23F231D755E9600296E70 /* AutorotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutorotateController.h; sourceTree = "<group>"; };
@@ -363,8 +369,36 @@
 		70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */ = {
 			isa = PBXGroup;
 			children = (
+				70858FFB1D76BF8B00CA96E7 /* Controller */,
+				70858FFC1D76BF8B00CA96E7 /* Model */,
+				70858FFD1D76BF8B00CA96E7 /* View */,
 			);
 			path = "Demo2-无限轮播";
+			sourceTree = "<group>";
+		};
+		70858FFB1D76BF8B00CA96E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70858FFE1D76BFA700CA96E7 /* CollectionDemo2Controller.h */,
+				70858FFF1D76BFA700CA96E7 /* CollectionDemo2Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70858FFC1D76BF8B00CA96E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70858FFD1D76BF8B00CA96E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				708590011D76C05F00CA96E7 /* CollectionDemo2Cell.h */,
+				708590021D76C05F00CA96E7 /* CollectionDemo2Cell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		70F23F1F1D755D7200296E70 /* Portrait-指定竖屏 */ = {
@@ -655,6 +689,7 @@
 				704CE18E1D768B2200315C2D /* CollectionDemo1Controller.m in Sources */,
 				70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */,
 				679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */,
+				708590001D76BFA700CA96E7 /* CollectionDemo2Controller.m in Sources */,
 				70F8543F1D6BE07F000D668E /* STNetwork.m in Sources */,
 				70F854451D6BE07F000D668E /* YTKNetworkAgent.m in Sources */,
 				70F23F251D755E9600296E70 /* AutorotateController.m in Sources */,
@@ -663,6 +698,7 @@
 				70F854501D6BE58E000D668E /* STTabBarController.m in Sources */,
 				70F854491D6BE07F000D668E /* STProgressHUD.m in Sources */,
 				70F854401D6BE07F000D668E /* YTKBaseRequest.m in Sources */,
+				708590031D76C05F00CA96E7 /* CollectionDemo2Cell.m in Sources */,
 				679BE4F81D4B3C0F0099E546 /* NSString+ST.m in Sources */,
 				70F854461D6BE07F000D668E /* YTKNetworkConfig.m in Sources */,
 				70F8545D1D6BFCED000D668E /* STBarButtonItem.m in Sources */,

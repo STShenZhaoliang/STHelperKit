@@ -17,7 +17,7 @@
 #import "STTableAnimationController.h"
 
 #import "AutorotateController.h"
-#import "CollectionDemo1Controller.h"
+#import "CollectionDemo2Controller.h"
 
 #pragma mark - --- View 视图 ---
 
@@ -61,7 +61,7 @@
 //    STNavigationController *navVC = [[STNavigationController alloc]initWithRootViewController:[AutorotateController new]];
     
     
-    CollectionDemo1Controller *vc = [CollectionDemo1Controller new];
+    CollectionDemo2Controller *vc = [CollectionDemo2Controller new];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
 }
