@@ -26,6 +26,10 @@
 		705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */; };
 		705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB11D6D2E08000F384C /* STTableViewCell.m */; };
 		705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */; };
+		706A37B81D780B6600B0B607 /* CollectionDemo3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37B71D780B6600B0B607 /* CollectionDemo3Controller.m */; };
+		706A37BC1D780EC500B0B607 /* STCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37BB1D780EC500B0B607 /* STCollectionViewFlowLayout.m */; };
+		706A37BF1D7811AD00B0B607 /* CollectionDemo3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37BE1D7811AD00B0B607 /* CollectionDemo3Cell.m */; };
+		706A37C21D78170200B0B607 /* CollectionDemo3HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37C11D78170200B0B607 /* CollectionDemo3HeaderView.m */; };
 		70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FF81D76B61F00CA96E7 /* STMargin.m */; };
 		708590001D76BFA700CA96E7 /* CollectionDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FFF1D76BFA700CA96E7 /* CollectionDemo2Controller.m */; };
 		708590031D76C05F00CA96E7 /* CollectionDemo2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 708590021D76C05F00CA96E7 /* CollectionDemo2Cell.m */; };
@@ -90,6 +94,14 @@
 		705B3FB11D6D2E08000F384C /* STTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewCell.m; sourceTree = "<group>"; };
 		705B3FB31D6D2ED7000F384C /* STTableAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableAnimationCell.h; sourceTree = "<group>"; };
 		705B3FB41D6D2ED7000F384C /* STTableAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableAnimationCell.m; sourceTree = "<group>"; };
+		706A37B61D780B6600B0B607 /* CollectionDemo3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo3Controller.h; sourceTree = "<group>"; };
+		706A37B71D780B6600B0B607 /* CollectionDemo3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo3Controller.m; sourceTree = "<group>"; };
+		706A37BA1D780EC500B0B607 /* STCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		706A37BB1D780EC500B0B607 /* STCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		706A37BD1D7811AD00B0B607 /* CollectionDemo3Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo3Cell.h; sourceTree = "<group>"; };
+		706A37BE1D7811AD00B0B607 /* CollectionDemo3Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo3Cell.m; sourceTree = "<group>"; };
+		706A37C01D78170200B0B607 /* CollectionDemo3HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo3HeaderView.h; sourceTree = "<group>"; };
+		706A37C11D78170200B0B607 /* CollectionDemo3HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo3HeaderView.m; sourceTree = "<group>"; };
 		70858FF71D76B61F00CA96E7 /* STMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMargin.h; sourceTree = "<group>"; };
 		70858FF81D76B61F00CA96E7 /* STMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMargin.m; sourceTree = "<group>"; };
 		70858FFE1D76BFA700CA96E7 /* CollectionDemo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo2Controller.h; sourceTree = "<group>"; };
@@ -316,6 +328,7 @@
 		704CE1841D7687B400315C2D /* Collection-集合视图 */ = {
 			isa = PBXGroup;
 			children = (
+				706A37B21D780B1600B0B607 /* Demo3-照片墙 */,
 				70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */,
 				704CE1851D768A2A00315C2D /* Demo1-网格视图 */,
 			);
@@ -364,6 +377,52 @@
 				705B3FB11D6D2E08000F384C /* STTableViewCell.m */,
 			);
 			name = STTabViewCell;
+			sourceTree = "<group>";
+		};
+		706A37B21D780B1600B0B607 /* Demo3-照片墙 */ = {
+			isa = PBXGroup;
+			children = (
+				706A37B31D780B4800B0B607 /* Controller */,
+				706A37B41D780B4800B0B607 /* Model */,
+				706A37B51D780B4800B0B607 /* View */,
+			);
+			path = "Demo3-照片墙";
+			sourceTree = "<group>";
+		};
+		706A37B31D780B4800B0B607 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				706A37B61D780B6600B0B607 /* CollectionDemo3Controller.h */,
+				706A37B71D780B6600B0B607 /* CollectionDemo3Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		706A37B41D780B4800B0B607 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		706A37B51D780B4800B0B607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				706A37BD1D7811AD00B0B607 /* CollectionDemo3Cell.h */,
+				706A37BE1D7811AD00B0B607 /* CollectionDemo3Cell.m */,
+				706A37C01D78170200B0B607 /* CollectionDemo3HeaderView.h */,
+				706A37C11D78170200B0B607 /* CollectionDemo3HeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		706A37B91D780E6500B0B607 /* STCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				706A37BA1D780EC500B0B607 /* STCollectionViewFlowLayout.h */,
+				706A37BB1D780EC500B0B607 /* STCollectionViewFlowLayout.m */,
+			);
+			path = STCollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
 		70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */ = {
@@ -442,6 +501,7 @@
 		70F854271D6BE07F000D668E /* Tool-工具 */ = {
 			isa = PBXGroup;
 			children = (
+				706A37B91D780E6500B0B607 /* STCollectionViewFlowLayout */,
 				705B3FAF1D6D2DF0000F384C /* STTabViewCell */,
 				70F8545A1D6BFCAE000D668E /* STBarButtonItem */,
 				70F854591D6BF18D000D668E /* STProgressHUD */,
@@ -697,8 +757,10 @@
 				679BE4EE1D4B05D40099E546 /* UIImage+ST.m in Sources */,
 				70F854501D6BE58E000D668E /* STTabBarController.m in Sources */,
 				70F854491D6BE07F000D668E /* STProgressHUD.m in Sources */,
+				706A37C21D78170200B0B607 /* CollectionDemo3HeaderView.m in Sources */,
 				70F854401D6BE07F000D668E /* YTKBaseRequest.m in Sources */,
 				708590031D76C05F00CA96E7 /* CollectionDemo2Cell.m in Sources */,
+				706A37BC1D780EC500B0B607 /* STCollectionViewFlowLayout.m in Sources */,
 				679BE4F81D4B3C0F0099E546 /* NSString+ST.m in Sources */,
 				70F854461D6BE07F000D668E /* YTKNetworkConfig.m in Sources */,
 				70F8545D1D6BFCED000D668E /* STBarButtonItem.m in Sources */,
@@ -708,6 +770,7 @@
 				70F854481D6BE07F000D668E /* YTKRequest.m in Sources */,
 				70F854411D6BE07F000D668E /* YTKBatchRequest.m in Sources */,
 				705B3FB21D6D2E08000F384C /* STTableViewCell.m in Sources */,
+				706A37B81D780B6600B0B607 /* CollectionDemo3Controller.m in Sources */,
 				67FE471E1D49937C00792E4F /* main.m in Sources */,
 				70F854471D6BE07F000D668E /* YTKNetworkPrivate.m in Sources */,
 				70F854601D6BFFC2000D668E /* ViewNav0Controller.m in Sources */,
@@ -716,6 +779,7 @@
 				705B3FB51D6D2ED7000F384C /* STTableAnimationCell.m in Sources */,
 				70F854251D6BDB8A000D668E /* NetworkController.m in Sources */,
 				70F854571D6BF170000D668E /* STTextView.m in Sources */,
+				706A37BF1D7811AD00B0B607 /* CollectionDemo3Cell.m in Sources */,
 				70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */,
 				704CE18B1D768AEF00315C2D /* CollectionDemo1Cell.m in Sources */,
 				70F854421D6BE07F000D668E /* YTKBatchRequestAgent.m in Sources */,
