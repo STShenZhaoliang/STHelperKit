@@ -30,6 +30,8 @@
 		706A37BC1D780EC500B0B607 /* STCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37BB1D780EC500B0B607 /* STCollectionViewFlowLayout.m */; };
 		706A37BF1D7811AD00B0B607 /* CollectionDemo3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37BE1D7811AD00B0B607 /* CollectionDemo3Cell.m */; };
 		706A37C21D78170200B0B607 /* CollectionDemo3HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37C11D78170200B0B607 /* CollectionDemo3HeaderView.m */; };
+		706A37C91D7823A500B0B607 /* CollectionDemo4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37C81D7823A500B0B607 /* CollectionDemo4Controller.m */; };
+		706A37CC1D7823F200B0B607 /* CollectionDemo4Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A37CB1D7823F200B0B607 /* CollectionDemo4Cell.m */; };
 		70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FF81D76B61F00CA96E7 /* STMargin.m */; };
 		708590001D76BFA700CA96E7 /* CollectionDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70858FFF1D76BFA700CA96E7 /* CollectionDemo2Controller.m */; };
 		708590031D76C05F00CA96E7 /* CollectionDemo2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 708590021D76C05F00CA96E7 /* CollectionDemo2Cell.m */; };
@@ -102,6 +104,10 @@
 		706A37BE1D7811AD00B0B607 /* CollectionDemo3Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo3Cell.m; sourceTree = "<group>"; };
 		706A37C01D78170200B0B607 /* CollectionDemo3HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo3HeaderView.h; sourceTree = "<group>"; };
 		706A37C11D78170200B0B607 /* CollectionDemo3HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo3HeaderView.m; sourceTree = "<group>"; };
+		706A37C71D7823A500B0B607 /* CollectionDemo4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo4Controller.h; sourceTree = "<group>"; };
+		706A37C81D7823A500B0B607 /* CollectionDemo4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo4Controller.m; sourceTree = "<group>"; };
+		706A37CA1D7823F200B0B607 /* CollectionDemo4Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo4Cell.h; sourceTree = "<group>"; };
+		706A37CB1D7823F200B0B607 /* CollectionDemo4Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo4Cell.m; sourceTree = "<group>"; };
 		70858FF71D76B61F00CA96E7 /* STMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMargin.h; sourceTree = "<group>"; };
 		70858FF81D76B61F00CA96E7 /* STMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMargin.m; sourceTree = "<group>"; };
 		70858FFE1D76BFA700CA96E7 /* CollectionDemo2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo2Controller.h; sourceTree = "<group>"; };
@@ -328,6 +334,7 @@
 		704CE1841D7687B400315C2D /* Collection-集合视图 */ = {
 			isa = PBXGroup;
 			children = (
+				706A37C31D78234F00B0B607 /* Demo4-瀑布流 */,
 				706A37B21D780B1600B0B607 /* Demo3-照片墙 */,
 				70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */,
 				704CE1851D768A2A00315C2D /* Demo1-网格视图 */,
@@ -423,6 +430,41 @@
 				706A37BB1D780EC500B0B607 /* STCollectionViewFlowLayout.m */,
 			);
 			path = STCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		706A37C31D78234F00B0B607 /* Demo4-瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				706A37C41D78239100B0B607 /* Controller */,
+				706A37C51D78239100B0B607 /* Model */,
+				706A37C61D78239100B0B607 /* View */,
+			);
+			path = "Demo4-瀑布流";
+			sourceTree = "<group>";
+		};
+		706A37C41D78239100B0B607 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				706A37C71D7823A500B0B607 /* CollectionDemo4Controller.h */,
+				706A37C81D7823A500B0B607 /* CollectionDemo4Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		706A37C51D78239100B0B607 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		706A37C61D78239100B0B607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				706A37CA1D7823F200B0B607 /* CollectionDemo4Cell.h */,
+				706A37CB1D7823F200B0B607 /* CollectionDemo4Cell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		70858FFA1D76BD9900CA96E7 /* Demo2-无限轮播 */ = {
@@ -746,6 +788,7 @@
 				70F854261D6BDB8A000D668E /* ApiWeatherservice.m in Sources */,
 				70F854631D6BFFEF000D668E /* ViewNav1Controller.m in Sources */,
 				70F854441D6BE07F000D668E /* YTKChainRequestAgent.m in Sources */,
+				706A37CC1D7823F200B0B607 /* CollectionDemo4Cell.m in Sources */,
 				704CE18E1D768B2200315C2D /* CollectionDemo1Controller.m in Sources */,
 				70858FF91D76B61F00CA96E7 /* STMargin.m in Sources */,
 				679BE4F11D4B0A590099E546 /* UIView+ST.m in Sources */,
@@ -759,6 +802,7 @@
 				70F854491D6BE07F000D668E /* STProgressHUD.m in Sources */,
 				706A37C21D78170200B0B607 /* CollectionDemo3HeaderView.m in Sources */,
 				70F854401D6BE07F000D668E /* YTKBaseRequest.m in Sources */,
+				706A37C91D7823A500B0B607 /* CollectionDemo4Controller.m in Sources */,
 				708590031D76C05F00CA96E7 /* CollectionDemo2Cell.m in Sources */,
 				706A37BC1D780EC500B0B607 /* STCollectionViewFlowLayout.m in Sources */,
 				679BE4F81D4B3C0F0099E546 /* NSString+ST.m in Sources */,
