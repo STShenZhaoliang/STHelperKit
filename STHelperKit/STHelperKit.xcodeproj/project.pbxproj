@@ -21,6 +21,8 @@
 		70022A011D66F3B700AC4B0B /* NSData+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A001D66F3B700AC4B0B /* NSData+ST.m */; };
 		70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70022A091D66F55900AC4B0B /* ViewTest0Controller.m */; };
 		70022A0C1D6707A700AC4B0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */; };
+		70222B081D80194D00545876 /* CollectionDemo6Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70222B071D80194D00545876 /* CollectionDemo6Cell.m */; };
+		70222B0B1D801A7A00545876 /* CollectionDemo6Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 70222B0A1D801A7A00545876 /* CollectionDemo6Layout.m */; };
 		704CE18B1D768AEF00315C2D /* CollectionDemo1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 704CE18A1D768AEF00315C2D /* CollectionDemo1Cell.m */; };
 		704CE18E1D768B2200315C2D /* CollectionDemo1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 704CE18D1D768B2200315C2D /* CollectionDemo1Controller.m */; };
 		705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705B3FAD1D6D2CBA000F384C /* STTableAnimationController.m */; };
@@ -39,6 +41,7 @@
 		70D253A81D7D16A1004A1050 /* CollectionDemo5Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D253A71D7D16A1004A1050 /* CollectionDemo5Cell.m */; };
 		70D253AB1D7D1963004A1050 /* CollectionDemo5FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D253AA1D7D1963004A1050 /* CollectionDemo5FlowLayout.m */; };
 		70D253AE1D7D1BA1004A1050 /* CollectionDemo5HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D253AD1D7D1BA1004A1050 /* CollectionDemo5HeaderView.m */; };
+		70D253B51D7D1E02004A1050 /* CollectionDemo6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D253B41D7D1E02004A1050 /* CollectionDemo6Controller.m */; };
 		70F23F221D755E1500296E70 /* PortraitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F211D755E1500296E70 /* PortraitController.m */; };
 		70F23F251D755E9600296E70 /* AutorotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F23F241D755E9600296E70 /* AutorotateController.m */; };
 		70F854251D6BDB8A000D668E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F854211D6BDB8A000D668E /* NetworkController.m */; };
@@ -90,6 +93,10 @@
 		70022A081D66F55900AC4B0B /* ViewTest0Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTest0Controller.h; sourceTree = "<group>"; };
 		70022A091D66F55900AC4B0B /* ViewTest0Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTest0Controller.m; sourceTree = "<group>"; };
 		70022A0B1D6707A700AC4B0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		70222B061D80194D00545876 /* CollectionDemo6Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo6Cell.h; sourceTree = "<group>"; };
+		70222B071D80194D00545876 /* CollectionDemo6Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo6Cell.m; sourceTree = "<group>"; };
+		70222B091D801A7A00545876 /* CollectionDemo6Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo6Layout.h; sourceTree = "<group>"; };
+		70222B0A1D801A7A00545876 /* CollectionDemo6Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo6Layout.m; sourceTree = "<group>"; };
 		704CE1891D768AEF00315C2D /* CollectionDemo1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo1Cell.h; sourceTree = "<group>"; };
 		704CE18A1D768AEF00315C2D /* CollectionDemo1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo1Cell.m; sourceTree = "<group>"; };
 		704CE18C1D768B2200315C2D /* CollectionDemo1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo1Controller.h; sourceTree = "<group>"; };
@@ -126,6 +133,8 @@
 		70D253AA1D7D1963004A1050 /* CollectionDemo5FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo5FlowLayout.m; sourceTree = "<group>"; };
 		70D253AC1D7D1BA1004A1050 /* CollectionDemo5HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo5HeaderView.h; sourceTree = "<group>"; };
 		70D253AD1D7D1BA1004A1050 /* CollectionDemo5HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo5HeaderView.m; sourceTree = "<group>"; };
+		70D253B31D7D1E02004A1050 /* CollectionDemo6Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemo6Controller.h; sourceTree = "<group>"; };
+		70D253B41D7D1E02004A1050 /* CollectionDemo6Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemo6Controller.m; sourceTree = "<group>"; };
 		70F23F201D755E1500296E70 /* PortraitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitController.h; sourceTree = "<group>"; };
 		70F23F211D755E1500296E70 /* PortraitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitController.m; sourceTree = "<group>"; };
 		70F23F231D755E9600296E70 /* AutorotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutorotateController.h; sourceTree = "<group>"; };
@@ -346,6 +355,7 @@
 		704CE1841D7687B400315C2D /* Collection-集合视图 */ = {
 			isa = PBXGroup;
 			children = (
+				70D253AF1D7D1DAC004A1050 /* Demo6-倾斜 */,
 				70D2539F1D7D15E2004A1050 /* Demo5-头部拉伸 */,
 				706A37C31D78234F00B0B607 /* Demo4-瀑布流 */,
 				706A37B21D780B1600B0B607 /* Demo3-照片墙 */,
@@ -550,6 +560,43 @@
 				70D253AD1D7D1BA1004A1050 /* CollectionDemo5HeaderView.m */,
 				70D253A91D7D1963004A1050 /* CollectionDemo5FlowLayout.h */,
 				70D253AA1D7D1963004A1050 /* CollectionDemo5FlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70D253AF1D7D1DAC004A1050 /* Demo6-倾斜 */ = {
+			isa = PBXGroup;
+			children = (
+				70D253B01D7D1DEB004A1050 /* Controller */,
+				70D253B11D7D1DEB004A1050 /* Model */,
+				70D253B21D7D1DEB004A1050 /* View */,
+			);
+			path = "Demo6-倾斜";
+			sourceTree = "<group>";
+		};
+		70D253B01D7D1DEB004A1050 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70D253B31D7D1E02004A1050 /* CollectionDemo6Controller.h */,
+				70D253B41D7D1E02004A1050 /* CollectionDemo6Controller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70D253B11D7D1DEB004A1050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70D253B21D7D1DEB004A1050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70222B061D80194D00545876 /* CollectionDemo6Cell.h */,
+				70222B071D80194D00545876 /* CollectionDemo6Cell.m */,
+				70222B091D801A7A00545876 /* CollectionDemo6Layout.h */,
+				70222B0A1D801A7A00545876 /* CollectionDemo6Layout.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -860,6 +907,7 @@
 				706A37BC1D780EC500B0B607 /* STCollectionViewFlowLayout.m in Sources */,
 				679BE4F81D4B3C0F0099E546 /* NSString+ST.m in Sources */,
 				70F854461D6BE07F000D668E /* YTKNetworkConfig.m in Sources */,
+				70222B081D80194D00545876 /* CollectionDemo6Cell.m in Sources */,
 				70F8545D1D6BFCED000D668E /* STBarButtonItem.m in Sources */,
 				67FE47211D49937C00792E4F /* AppDelegate.m in Sources */,
 				679BE4EA1D4AEF040099E546 /* UIColor+ST.m in Sources */,
@@ -872,6 +920,7 @@
 				67FE471E1D49937C00792E4F /* main.m in Sources */,
 				70D253AB1D7D1963004A1050 /* CollectionDemo5FlowLayout.m in Sources */,
 				70F854471D6BE07F000D668E /* YTKNetworkPrivate.m in Sources */,
+				70D253B51D7D1E02004A1050 /* CollectionDemo6Controller.m in Sources */,
 				70F854601D6BFFC2000D668E /* ViewNav0Controller.m in Sources */,
 				70D253A81D7D16A1004A1050 /* CollectionDemo5Cell.m in Sources */,
 				705B3FAE1D6D2CBA000F384C /* STTableAnimationController.m in Sources */,
@@ -882,6 +931,7 @@
 				706A37BF1D7811AD00B0B607 /* CollectionDemo3Cell.m in Sources */,
 				70022A0A1D66F55900AC4B0B /* ViewTest0Controller.m in Sources */,
 				704CE18B1D768AEF00315C2D /* CollectionDemo1Cell.m in Sources */,
+				70222B0B1D801A7A00545876 /* CollectionDemo6Layout.m in Sources */,
 				70F854421D6BE07F000D668E /* YTKBatchRequestAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
